@@ -73,7 +73,8 @@ function updateCountdown(now = Date.now()) {
     const countdown = document.querySelector('#countdown');
     countdown.removeAttribute('role');
     countdown.removeAttribute('aria-label');
-    countdown.textContent = 'Thank you for reclaiming it with us 💕';
+    const heartIcon = document.querySelector('.glyph-hearts').cloneNode(true);
+    countdown.replaceChildren(document.createTextNode('Thank you for reclaiming it with us '), heartIcon);
     document.querySelector('.countdown-caption').hidden = true;
     return false;
   }

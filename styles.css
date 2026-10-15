@@ -22,3 +22,11 @@
 .serena-photo img{transform:scale(1.15);object-position:50% 40%;transform-origin:50% 40%}
 
 .deepika-photo img{transform:scale(1.15);object-position:50% 40%;transform-origin:50% 40%}
+
+/* SVG decorations retain their line-art appearance across desktop and mobile. */
+.glyph{display:inline-block;width:1em;height:1em;flex:none;fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round;vertical-align:-.12em;overflow:visible}
+.glyph-arrow{width:1.15em;height:1.15em}.button .glyph-arrow{font-size:17px}.button-small .glyph-arrow{font-size:14px}
+.team-card a .glyph-arrow{font-size:12px}.text-link .glyph-arrow{font-size:17px}
+.small-logo .glyph-heart{width:.85em;height:.95em}.contact-heart .glyph{width:.8em;height:.95em}
+.little-icon .glyph{width:1em;height:1em}.card-star .glyph{width:.8em;height:.8em}
+.script .glyph-heart,.hero-bottom .glyph-heart{width:.85em;height:.95em}.glyph-hearts{color:var(--deep-rose)}
