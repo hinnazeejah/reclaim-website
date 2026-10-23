@@ -5,9 +5,16 @@ const CONFIG = {
   speaker: "https://docs.google.com/forms/d/e/1FAIpQLSfbK83FnpVJWIbScCCiatM2IVSI2NK_8fqfWJFO7nj0B0QcjQ/viewform",
   sponsor: "https://docs.google.com/forms/d/e/1FAIpQLScWhGixK6Pc8zImjmp6yoUZPlXf_4rhVzPIkasqn5HntN_3cQ/viewform",
   maps: "https://www.google.com/maps/search/?api=1&query=University+of+California+Irvine",
+  companies: {
+    rivian: "https://rivian.com/",
+    brava: "https://brava.world/",
+    dtcc: "https://www.dtcc.com/"
+  },
   linkedin: {
-    karen: "#",
-    viviana: "#",
+    kenton: "https://www.linkedin.com/in/kentonraiford/",
+    monica: "https://www.linkedin.com/in/monicapara/",
+    karen: "https://www.linkedin.com/in/karenhuang55/",
+    viviana: "https://www.linkedin.com/in/v-salazar/",
     aimen: "https://www.linkedin.com/in/aimen-moten/",
     hinna: "https://www.linkedin.com/in/hinna-zeejah/",
     serena: "https://www.linkedin.com/in/serena-kim-sujin/",

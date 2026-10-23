@@ -96,3 +96,11 @@
 .sponsor-label{display:inline-block;color:var(--deep-rose);font-size:10px;margin-top:auto}
 @media(min-width:601px) and (max-width:800px){.company-grid{grid-template-columns:1fr}}
 @media(max-width:380px){.company-grid{gap:12px}.company-logo{width:100px;height:100px}}
+
+/* Center the additional company partner without crowding the sponsor logos. */
+.company-grid>.company-profile:last-child:nth-child(odd){grid-column:1/-1}
+@media(min-width:601px) and (max-width:800px){.company-grid>.company-profile:last-child:nth-child(odd){grid-column:auto}}
+
+/* Keep linked logos and portraits easy to focus with a keyboard. */
+.donor-photo-link{display:block;width:max-content;max-width:100%;margin-inline:auto;border-radius:50%}
+.company-logo:hover,.donor-photo-link:hover{outline:2px solid var(--deep-rose);outline-offset:4px}
