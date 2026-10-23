@@ -104,3 +104,6 @@
 /* Keep linked logos and portraits easy to focus with a keyboard. */
 .donor-photo-link{display:block;width:max-content;max-width:100%;margin-inline:auto;border-radius:50%}
 .company-logo:hover,.donor-photo-link:hover{outline:2px solid var(--deep-rose);outline-offset:4px}
+
+/* Keep the date, venue, and time together without squeezing narrow screens. */
+.event-details{flex-wrap:wrap;row-gap:14px}
