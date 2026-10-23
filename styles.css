@@ -107,3 +107,7 @@
 
 /* Keep the date, venue, and time together without squeezing narrow screens. */
 .event-details{flex-wrap:wrap;row-gap:14px}
+
+/* Three program cards after removing Hiring Spotlights. */
+@media(min-width:1051px){.experience-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:601px) and (max-width:1050px){.experience-grid>.experience-card:last-child{grid-column:1/-1}}
