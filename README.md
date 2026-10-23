@@ -16,12 +16,16 @@ The supplied attachment paths were unavailable to the build environment. Add you
 No image-generation or logo recreation was used. The visible text fallback is intentional.
 
 ## Replace links
-Edit the CONFIG object at the very top of script.js. Replace the link values with your real URLs: rsvp, speaker, sponsor; the five linkedin profiles; and the three socials. While unset, clicks show a friendly coming-soon notice. The RSVP link opens Partiful. The sponsor and speaker links open their respective supplied Google Forms. Sponsorship prices, tiers, and benefits are intentionally excluded from the public site.
+Edit the CONFIG object at the very top of script.js. Replace the link values with your real URLs: rsvp, speaker, sponsor; the linkedin profiles and maps link. While unset, clicks show a friendly coming-soon notice. The RSVP link opens Partiful. The sponsor and speaker links open their respective supplied Google Forms. Sponsorship prices, tiers, and benefits are intentionally excluded from the public site.
 
-## Replace team photos
-In index.html, find the PHOTOS comment inside #team. Replace each <span class="avatar">…</span> with, for example:
-<img class="avatar" src="assets/aimen.jpg" alt="Aimen Moten">
-Put each photo in assets. The same avatar class handles circular cropping.
+## Hosts and community leaders
+The hosts in #team are Hinna Zeejah, Mariyam Zaki, and Aimen Moten, with their existing photos.
+The separate #community-leaders section contains Karen Huang and Viviana Salazar with initials placeholders, plus Deepika Sharma and Serena Kim with photos. To add a photo, replace that person's avatar-placeholder span with:
+<img class="avatar" src="assets/karen-huang.png" alt="Karen Huang" loading="lazy">
+Place the photo in assets/. Karen and Viviana's LinkedIn links are placeholders in script.js CONFIG.
+
+## UC Irvine map
+The #location section includes UC Irvine, a Google Maps campus link, and “Rideshare recommended.” The campus screenshot is assets/uc-irvine-map.png and links to Google Maps. Replace this file to update the map image.
 
 ## Other edits
 - FAQ: attendance is confirmed as free. Edit answers directly in index.html.

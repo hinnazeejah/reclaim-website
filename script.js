@@ -4,7 +4,10 @@ const CONFIG = {
   rsvp: "https://partiful.com/e/ZkZRomSJSk0BPVPQk1PR",
   speaker: "https://docs.google.com/forms/d/e/1FAIpQLSfbK83FnpVJWIbScCCiatM2IVSI2NK_8fqfWJFO7nj0B0QcjQ/viewform",
   sponsor: "https://docs.google.com/forms/d/e/1FAIpQLScWhGixK6Pc8zImjmp6yoUZPlXf_4rhVzPIkasqn5HntN_3cQ/viewform",
+  maps: "https://www.google.com/maps/search/?api=1&query=University+of+California+Irvine",
   linkedin: {
+    karen: "#",
+    viviana: "#",
     aimen: "https://www.linkedin.com/in/aimen-moten/",
     hinna: "https://www.linkedin.com/in/hinna-zeejah/",
     serena: "https://www.linkedin.com/in/serena-kim-sujin/",
