@@ -111,3 +111,10 @@
 /* Three program cards after removing Hiring Spotlights. */
 @media(min-width:1051px){.experience-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(min-width:601px) and (max-width:1050px){.experience-grid>.experience-card:last-child{grid-column:1/-1}}
+
+/* Use the supplied wordmark artwork in the hero and navigation. */
+.nav-wordmark{width:148px;height:auto;max-height:66px;object-fit:contain}
+#hero-logo{width:min(100%,900px);max-height:none;height:auto}
+.hero-wordmark:has(#hero-logo:not([hidden])) .sparkle{display:none}
+@media(max-width:800px){.nav-wordmark{width:128px;max-height:58px}}
+@media(max-width:600px){.hero-wordmark:has(#hero-logo:not([hidden])){margin-inline:-8px}.hero:has(#hero-logo:not([hidden])){padding-top:150px}.hero-wordmark:has(#hero-logo:not([hidden])) .hero-descriptor{margin-top:0}}
