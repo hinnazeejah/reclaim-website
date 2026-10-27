@@ -149,3 +149,10 @@
 .company-grid>.company-profile:nth-child(3){grid-column:1/-1}
 
 .agenda-description{font-size:13px;line-height:1.8;margin:14px 0 0}
+
+/* Exact building address and map, retaining the university venue name. */
+.venue-address{font-size:11px;letter-spacing:.06em;font-weight:500}
+.event-details p:has(.venue-address){text-align:left;line-height:1.8}
+.venue-map{display:block;width:100%;height:auto;aspect-ratio:4/3;border:0;border-radius:16px}
+.location-city:has(.venue-address){align-items:flex-start}.location-city:has(.venue-address)>.icon{margin-top:3px}
+@media(max-width:600px){.event-details p:has(.venue-address){text-align:center;align-items:center}.footer-top>p{line-height:1.9}.venue-address{font-size:10px}}

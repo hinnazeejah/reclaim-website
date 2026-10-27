@@ -4,7 +4,7 @@ const CONFIG = {
   rsvp: "https://partiful.com/e/ZkZRomSJSk0BPVPQk1PR",
   speaker: "https://docs.google.com/forms/d/e/1FAIpQLSfbK83FnpVJWIbScCCiatM2IVSI2NK_8fqfWJFO7nj0B0QcjQ/viewform",
   sponsor: "https://docs.google.com/forms/d/e/1FAIpQLScWhGixK6Pc8zImjmp6yoUZPlXf_4rhVzPIkasqn5HntN_3cQ/viewform",
-  maps: "https://www.google.com/maps/search/?api=1&query=University+of+California+Irvine",
+  maps: "https://www.google.com/maps/search/?api=1&query=510+E+Peltason+Dr%2C+Irvine%2C+CA",
   companies: {
     rivian: "https://rivian.com/",
     brava: "https://brava.world/",
