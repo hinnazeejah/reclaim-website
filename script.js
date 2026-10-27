@@ -12,6 +12,7 @@ const CONFIG = {
     uci: "https://ics.uci.edu/"
   },
   linkedin: {
+    matt: "https://www.linkedin.com/in/mattwallaert/",
     kenton: "https://www.linkedin.com/in/kentonraiford/",
     monica: "https://www.linkedin.com/in/monicapara/",
     karen: "https://www.linkedin.com/in/karenhuang55/",
