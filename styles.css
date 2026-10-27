@@ -139,3 +139,11 @@
 .agenda-note{margin-top:30px;margin-bottom:0}
 @media(max-width:800px){.agenda-block{grid-template-columns:140px minmax(0,1fr);gap:22px}.agenda-sessions{grid-template-columns:1fr}.agenda-guide{grid-template-columns:1fr;gap:24px}}
 @media(max-width:600px){.agenda-block{grid-template-columns:1fr;gap:20px;padding:26px 0}.agenda-time h3{font-size:27px}.agenda-time>p{margin-bottom:8px}.agenda-session{padding:22px}.agenda-session h4{font-size:23px}.agenda-guide{margin-bottom:32px}.agenda-date{font-size:12px!important}.agenda-guide aside{padding:24px}}
+
+/* Give the wide UC Irvine school wordmark room to remain legible. */
+.company-profile-wide{grid-column:1/-1}
+.company-logo-wide{width:100%;max-width:340px;height:auto;min-height:90px;padding:16px;background:var(--warm-cream)}
+.company-logo-wide img{width:100%;height:auto}
+.company-profile-wide h3{max-width:310px;margin-bottom:10px}
+
+.company-grid>.company-profile:nth-child(3){grid-column:1/-1}
