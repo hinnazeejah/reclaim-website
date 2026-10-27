@@ -8,7 +8,8 @@ const CONFIG = {
   companies: {
     rivian: "https://rivian.com/",
     brava: "https://brava.world/",
-    dtcc: "https://www.dtcc.com/"
+    dtcc: "https://www.dtcc.com/",
+    uci: "https://ics.uci.edu/"
   },
   linkedin: {
     kenton: "https://www.linkedin.com/in/kentonraiford/",
