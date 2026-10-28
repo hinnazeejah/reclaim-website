@@ -161,3 +161,11 @@
 .donor-grid>.donor-profile:last-child:nth-child(odd){grid-column:1/-1}
 .donor-profile .donor-kind{margin-top:8px;color:var(--deep-rose)}
 .matt-photo{object-position:50% 35%}
+
+/* In-person room directions stay visible above the remaining agenda. */
+.room-guide{border:1px solid var(--line);border-radius:20px;background:var(--warm-cream);padding:28px;margin-bottom:28px}
+.room-guide-heading .eyebrow{margin-bottom:10px}.room-guide-heading h3{font-size:28px;margin-bottom:24px}
+.room-guide-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;margin:0}
+.room-guide-grid>div{min-width:0}.room-guide-grid dt{font-size:13px;font-weight:700;color:var(--deep-rose);margin-bottom:8px}.room-guide-grid dd{font-size:13px;line-height:1.8;margin:0}
+@media(max-width:800px){.room-guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:400px){.room-guide{padding:22px}.room-guide-grid{grid-template-columns:1fr;gap:18px}}
