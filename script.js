@@ -77,28 +77,6 @@ document.addEventListener('click', event => { if (!event.target.closest('.site-h
 const desktopQuery = matchMedia('(min-width: 801px)');
 desktopQuery.addEventListener('change', () => closeMenu());
 
-// October 28 is daylight saving time in Los Angeles: UTC−07:00.
-const EVENT_DATE = new Date('2026-10-28T09:00:00-07:00').getTime();
-function updateCountdown(now = Date.now()) {
-  const remaining = EVENT_DATE - now;
-  if (remaining <= 0) {
-    const countdown = document.querySelector('#countdown');
-    countdown.removeAttribute('role');
-    countdown.removeAttribute('aria-label');
-    const heartIcon = document.querySelector('.glyph-hearts').cloneNode(true);
-    countdown.replaceChildren(document.createTextNode('Thank you for reclaiming it with us '), heartIcon);
-    document.querySelector('.countdown-caption').hidden = true;
-    return false;
-  }
-  const totalMinutes = Math.floor(remaining / 60000);
-  document.querySelector('#days').textContent = String(Math.floor(totalMinutes / 1440)).padStart(2, '0');
-  document.querySelector('#hours').textContent = String(Math.floor(totalMinutes / 60) % 24).padStart(2, '0');
-  document.querySelector('#minutes').textContent = String(totalMinutes % 60).padStart(2, '0');
-  return true;
-}
-if (updateCountdown()) {
-  const countdownInterval = setInterval(() => { if (!updateCountdown()) clearInterval(countdownInterval); }, 1000);
-}
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 if ('IntersectionObserver' in window && !reducedMotion.matches) {
   document.documentElement.classList.add('motion-ready');
